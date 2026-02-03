@@ -1,26 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Bamsy&#39;s Website</title>
-        <link>https://www.sergalmerps.org/</link>
+        <link>/</link>
         <description>i am gonna touch you</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 03 Feb 2026 08:00:46 -0600</lastBuildDate>
-            <atom:link href="https://www.sergalmerps.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Who goes there?</title>
-    <link>https://www.sergalmerps.org/posts/second_post/</link>
+    <link>/posts/second_post/</link>
     <pubDate>Sun, 01 Feb 2026 23:09:49 -0600</pubDate>
     <author>Bamsy</author>
-    <guid>https://www.sergalmerps.org/posts/second_post/</guid>
+    <guid>/posts/second_post/</guid>
     <description><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
 <p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreffer ">Hugo</a> website!</p>]]></description>
 </item>
 <item>
     <title>Welcome, Traveler!</title>
-    <link>https://www.sergalmerps.org/posts/first_post/first_post/</link>
+    <link>/posts/first_post/first_post/</link>
     <pubDate>Sun, 01 Feb 2026 23:07:19 -0600</pubDate>
     <author>Bamsy</author>
-    <guid>https://www.sergalmerps.org/posts/first_post/first_post/</guid>
+    <guid>/posts/first_post/first_post/</guid>
     <description><![CDATA[<h2 id="severely-in-progress">Severely in progress!</h2>
 <div class="details admonition info">
         <div class="details-summary admonition-title">
