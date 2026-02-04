@@ -4,5 +4,5 @@ draft = false
 title = 'index'
 +++
 
-This is a personal place for my shenanigans, lol. feel free to comment down what you'd like to see!
+This is a personal place for my shenanigans, lol.
 
