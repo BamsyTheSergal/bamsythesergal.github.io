@@ -31,7 +31,7 @@ enableEmoji = true
 
     # you can add extra information before the name (HTML format is supported), such as icons
 
-    pre = ""
+    pre = ":(fa-regular fa-address-book):"
 
     # you can add extra information after the name (HTML format is supported), such as icons
 
@@ -43,37 +43,24 @@ enableEmoji = true
 
     # title will be shown when you hover on this menu link
 
-    title = "posts index"
+    title = "Posts Index"
 
   [[menu.main]]
 
     weight = 2
 
-    identifier = "e621"
+    identifier = "immich"
 
-    pre = ""
+    pre = ":(fa-solid fa-photo-film):"
 
     post = ""
 
-    name = "E621"
+    name = "Immich"
 
-    url = "https://e621.net"
+    url = "immich.sergalmerps.org"
 
-    title = "faggy shit"
+    title = "Where all my pics are at~!"
 
-    #  Comment config
-    [params.giscus]
-        repo = "BamsyTheSergal/bamsythesergal.github.io"
-        repoID = "R_kgDOIo7Jmw"
-        category = "General"
-        categoryID = "DIC_kwDOIo7Jm84Ce_PR"
-        mapping = "og:title"
-        reactionsEnabled = "1"
-        emitMetadata = "0"
-        inputPosition = "top"
-        theme = "dark"
-        lang = "en"
-        loading = "lazy"
 
 # Markup related configuration in Hugo
 
@@ -121,7 +108,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     link = "https://twitter.com/mindfulObserved"
 
-
+    picture = "/images/logo.png"
 
   # Header config
 
