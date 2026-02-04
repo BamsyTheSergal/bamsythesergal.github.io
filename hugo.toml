@@ -1,0 +1,399 @@
+baseURL = "https://www.sergalmerps.org/"
+theme = "LoveIt"
+title = "Bamsy's Website"
+languageCode = "en"
+languageName = "English"
+enableEmoji = true
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+# Menu config
+
+# Pagination config
+
+[pagination]
+
+  disableAliases = false
+
+  pagerSize = 10
+
+  path = "page"
+
+[menu]
+
+  [[menu.main]]
+
+    weight = 1
+
+    identifier = "posts"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+
+    pre = ""
+
+    # you can add extra information after the name (HTML format is supported), such as icons
+
+    post = ""
+
+    name = "Posts"
+
+    url = "/posts/"
+
+    # title will be shown when you hover on this menu link
+
+    title = "posts index"
+
+  [[menu.main]]
+
+    weight = 2
+
+    identifier = "e621"
+
+    pre = ""
+
+    post = ""
+
+    name = "E621"
+
+    url = "https://e621.net"
+
+    title = "faggy shit"
+
+    #  Comment config
+    [params.giscus]
+        repo = "BamsyTheSergal/bamsythesergal.github.io"
+        repoID = "R_kgDOIo7Jmw"
+        category = "General"
+        categoryID = "DIC_kwDOIo7Jm84Ce_PR"
+        mapping = "og:title"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "top"
+        theme = "dark"
+        lang = "en"
+        loading = "lazy"
+
+# Markup related configuration in Hugo
+
+[markup]
+
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+
+  [markup.highlight]
+
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+
+    noClasses = false
+
+# ignore some build errors
+
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+[params]
+
+  defaultTheme = "dark"
+
+  #  date format
+
+  dateFormat = "01-02-2006"
+
+  # website title for Open Graph and Twitter Cards
+
+  title = "Bamsy's cool site"
+
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+
+  description = "i am gonna touch you"
+
+  # website images for Open Graph and Twitter Cards
+
+  images = ["/logo.png"]
+
+
+
+# Author config
+
+  [params.author]
+
+    name = "Bamsy"
+
+    link = "https://twitter.com/mindfulObserved"
+
+
+
+  # Header config
+
+  [params.header]
+
+    # desktop header mode ["fixed", "normal", "auto"]
+
+    desktopMode = "fixed"
+
+    # mobile header mode ["fixed", "normal", "auto"]
+
+    mobileMode = "auto"
+
+    #  Header title config
+
+    [params.header.title]
+
+      # URL of the LOGO
+
+      logo = "/images/logo.png"
+
+      # title name
+
+      name = "Bamsy's Zone™"
+
+      # you can add extra information before the name (HTML format is supported), such as icons
+
+      pre = ""
+
+      # you can add extra information after the name (HTML format is supported), such as icons
+
+      post = ""
+
+      #  whether to use typeit animation for title name
+
+      typeit = false
+
+
+
+  # Footer config
+
+  [params.footer]
+
+    enable = true
+
+    #  Custom content (HTML format is supported)
+
+    custom = 'Blems at you 🧡'
+
+    #  whether to show Hugo and theme info
+
+    hugo = true
+
+    #  whether to show the author
+
+    author = true
+
+    # Site creation time
+
+    since = 2026
+
+
+  #  Section (all posts) page config
+
+  [params.section]
+
+    # special amount of posts in each section page
+
+    paginate = 20
+
+    # date format (month and day)
+
+    dateFormat = "01-02"
+
+    # amount of RSS pages
+
+    rss = 10
+
+
+
+  #  List (category or tag) page config
+
+  [params.list]
+
+    # special amount of posts in each list page
+
+    paginate = 20
+
+    # date format (month and day)
+
+    dateFormat = "01-02"
+
+    # amount of RSS pages
+
+    rss = 10
+
+
+
+  #  App icon config
+
+  [params.app]
+
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+
+    title = "Bamsy has a big butt"
+
+    # whether to omit favicon resource links
+
+    noFavicon = false
+
+    # modern SVG favicon to use in place of older style .png and .ico files
+
+    svgFavicon = ""
+
+    # Android browser theme color
+
+    themeColor = "#ffffff"
+
+    # Safari mask icon color
+
+    iconColor = "#5bbad5"
+
+    # Windows v8-10 tile color
+
+    tileColor = "#da532c"
+
+
+
+  # Home page config
+
+  [params.home]
+
+    #  amount of RSS pages
+
+    rss = 10
+
+    # Home page profile
+
+    [params.home.profile]
+
+      enable = true
+
+      # URL of avatar shown in home page
+
+      avatarURL = "/images/avatar2.png"
+
+      #  title shown in home page (HTML format is supported)
+
+      title = "Bamsy's Zone™"
+
+      # subtitle shown in home page (HTML format is supported)
+
+      subtitle = "Welcome! ^v^"
+
+      # whether to use typeit animation for subtitle
+
+      typeit = true
+
+      # whether to show social links
+
+      social = true
+
+      #  disclaimer (HTML format is supported)
+
+      disclaimer = ""
+
+    # Home page posts
+
+    [params.home.posts]
+
+      enable = true
+
+      # special amount of posts in each home posts page
+
+      paginate = 6
+
+      #  replaced with hiddenFromHomePage in params.page
+
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+
+      defaultHiddenFromHomePage = false
+
+
+
+  # Social config about the author
+
+  [params.social]
+
+    Twitter = "mindfulObserved" #
+
+    GitHub = "BamsyTheSergal"
+
+    Youtubecustom = "BamsyTheSergal"
+
+    Soundcloud = "bamsythesergal"
+
+    Lastfm = "BamsyTheSergal"
+
+    Steam = "BamsyTheSergal"
+
+    RSS = true #
+
+
+
+  #  Page global config
+
+  [params.page]
+
+    #  whether to hide a page from home page
+
+    hiddenFromHomePage = false
+
+    #  whether to hide a page from search results
+
+    hiddenFromSearch = false
+
+    #  whether to enable twemoji
+
+    twemoji = true
+
+    # whether to enable lightgallery
+
+    lightgallery = false
+
+    #  whether to enable the ruby extended syntax
+
+    ruby = true
+
+    #  whether to enable the fraction extended syntax
+
+    fraction = true
+
+    #  whether to enable the fontawesome extended syntax
+
+    fontawesome = true
+
+    # whether to show link to Raw Markdown content of the content
+
+    linkToMarkdown = true
+
+    #  whether to show the full text content in RSS
+
+    rssFullText = false
+
+    #  Table of the contents config
+
+    [params.page.share]
+
+      enable = false
+
+      Twitter = true
+      HackerNews = false
+      Line = false
+      Facebook = false
+      Weibo = false
+
+  #  TypeIt config
+
+  [params.typeit]
+
+    # typing speed between each step (measured in milliseconds)
+
+    speed = 100
+
+    # blinking speed of the cursor (measured in milliseconds)
+
+    cursorSpeed = 1000
+
+    # character used for the cursor (HTML format is supported)
+
+    cursorChar = "|"
+
+    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+
+    duration = -1
