@@ -22,10 +22,14 @@ enableEmoji = true
   path = "page"
 
 [menu]
+  [[menus.main]]
+    weight = 1
+    name = "Home"
+    pageRef = "/"
 
   [[menu.main]]
 
-    weight = 1
+    weight = 10
 
     identifier = "posts"
 
@@ -47,7 +51,7 @@ enableEmoji = true
 
   [[menu.main]]
 
-    weight = 2
+    weight = 20
 
     identifier = "immich"
 
