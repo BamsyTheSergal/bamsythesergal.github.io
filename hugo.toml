@@ -31,7 +31,7 @@ enableEmoji = true
 
     # you can add extra information before the name (HTML format is supported), such as icons
 
-    pre = "<i class="fa-regular fa-address-book"></i>"
+    pre = "<i class='fa-regular fa-address-book'></i>"
 
     # you can add extra information after the name (HTML format is supported), such as icons
 
@@ -51,13 +51,13 @@ enableEmoji = true
 
     identifier = "immich"
 
-    pre = "<i class="fa-solid fa-photo-film"></i>"
+    pre = "<i class='fa-solid fa-photo-film'></i>"
 
     post = ""
 
     name = "Immich"
 
-    url = "immich.sergalmerps.org"
+    url = "https://immich.sergalmerps.org"
 
     title = "Where all my pics are at~!"
 
