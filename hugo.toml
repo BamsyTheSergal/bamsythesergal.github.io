@@ -370,6 +370,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Weibo = false
 
   #  TypeIt config
+    [params.page.comment]
+      enable = true
+        [params.page.comment.utterances]
+        enable = true
+        # owner/repo
+        repo = "BamsyTheSergal/bamsythesergal.github.io"
+        issueTerm = "pathname"
+        label = "Comments"
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+
+
+
 
   [params.typeit]
 
