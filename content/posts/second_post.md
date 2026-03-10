@@ -4,10 +4,9 @@ draft = false
 title = 'Who goes there?'
 author = 'Bamsy'
 +++
-## Introduction
+# Welcome~!
 
-This is **bold** text, and this is *emphasized* text.
+> *Just a small corner of the internet where I keep notes, projects, and things I’ve learned along the way.*
 
-Visit the [Hugo](https://gohugo.io) website!
-
+Feel free to look around, maybe you’ll find something useful, or at least something interesting!~
 
