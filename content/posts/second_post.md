@@ -4,7 +4,7 @@ draft = false
 title = 'Who goes there?'
 author = 'Bamsy'
 +++
-# Welcome~!
+# Glad You’re Here~!
 
 > *Just a small corner of the internet where I keep notes, projects, and things I’ve learned along the way.*
 
