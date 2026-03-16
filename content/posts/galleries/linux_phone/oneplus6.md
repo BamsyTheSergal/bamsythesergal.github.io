@@ -6,7 +6,7 @@ author = 'Bamsy'
 +++
 # Glad You’re Here~!
 
-### This is a basic page i will be expanding for my project on using a linux phone, a OnePlus 6, running PostMarketOS (KDE Mobile flavor)
+### This is a basic page I will be expanding for my project on using a linux phone, PostMarketOS (KDE Mobile flavor)
 
 {{< figure
     src="https://ipp.sergalmerps.org/s/linux_preview"
