@@ -49,22 +49,6 @@ enableEmoji = true
 
     title = "Posts Index"
 
-  [[menu.main]]
-
-    weight = 20
-
-    identifier = "immich"
-
-    pre = "<i class='fa-solid fa-photo-film'></i>"
-
-    post = ""
-
-    name = "Immich"
-
-    url = "https://immich.sergalmerps.org"
-
-    title = "Where all my pics are at~!"
-
 
 # Markup related configuration in Hugo
 
