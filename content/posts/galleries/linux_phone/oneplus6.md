@@ -8,4 +8,4 @@ author = 'Bamsy'
 
 this is a basic page i will be expanding for my project on using a linux phone, a OnePlus 6, running PostMarketOS (KDE Mobile flavor)
 
-{{< image src="https://ipp.sergalmerps.org/s/test" caption="OnePlus 6">}}
+{{< image src="https://ipp.sergalmerps.org/s/linux_phone_media" caption="OnePlus 6">}}
