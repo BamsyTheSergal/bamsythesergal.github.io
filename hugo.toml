@@ -335,7 +335,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # whether to enable lightgallery
 
-    lightgallery = true
+    lightgallery = false
 
     #  whether to enable the ruby extended syntax
 
