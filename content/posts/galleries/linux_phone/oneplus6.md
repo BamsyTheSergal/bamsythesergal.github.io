@@ -8,6 +8,8 @@ author = 'Bamsy'
 
 ### This is a basic page I will be expanding for my project on using a linux phone, PostMarketOS (KDE Mobile flavor)
 
+click the pic below for the gallery!
+
 {{< figure
     src="https://ipp.sergalmerps.org/s/linux_preview"
     alt="Click Me!"
