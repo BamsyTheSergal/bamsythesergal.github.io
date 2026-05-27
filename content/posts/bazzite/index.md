@@ -14,7 +14,7 @@ comments = true
 | Component | Details |
 |---|---|
 | **Distro** | `Bazzite Stable` |
-| **Kernel** | `Linux 6.17.7-ba29.fc43.x86_64` |
+| **Kernel** | `Linux 6.17.7` |
 | **Desktop Environment** | `KDE Plasma 6.6.4 (Wayland)` |
 ---
 ## 🖥️ Hardware
@@ -46,7 +46,7 @@ comments = true
 | Component | Details |
 |---|---|
 | **Distro** | `Bazzite Stable` |
-| **Kernel** | `Linux 6.17.7-ba29.fc43.x86_64` |
+| **Kernel** | `Linux 6.17.7` |
 | **Desktop Environment** | `KDE Plasma 6.6.4 (Wayland)` |
 ---
 ## 🖥️ Hardware
