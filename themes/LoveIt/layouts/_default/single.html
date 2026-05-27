@@ -20,6 +20,9 @@
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
+        <div style="position:fixed;top:0;left:0;background:red;color:white;z-index:999999;padding:20px;">
+        WARNING ENABLED
+        </div>
         {{- if .Params.epilepsywarning -}}
         {{- partial "epilepsy-warning.html" . -}}
         {{- end -}}
