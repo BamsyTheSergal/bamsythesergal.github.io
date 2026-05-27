@@ -9,5 +9,4 @@ epilepsyWarning: true
 
 ### This is a basic page for testing a epilepsy warning!
 
-{{ partial "epilepsy-warning.html" . }}
  hellow
