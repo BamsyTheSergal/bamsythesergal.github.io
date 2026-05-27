@@ -44,8 +44,5 @@
 
         {{- /* Load JavaScript scripts and CSS */ -}}
         {{- partial "assets.html" . -}}
-        {{- if .Params.epilepsyWarning -}}
-          {{- partial "epilepsy-warning.html" . -}}
-        {{- end -}}
     </body>
 </html>
