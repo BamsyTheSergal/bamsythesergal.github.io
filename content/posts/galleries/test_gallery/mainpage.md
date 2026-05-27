@@ -3,7 +3,7 @@ date = '2026-05-27'
 draft = false
 title = 'test test 123!'
 author = 'Bamsy'
-epilepsyWarning: true
+epilepsyWarning = true
 +++
 # haaaaaaiii~!
 
