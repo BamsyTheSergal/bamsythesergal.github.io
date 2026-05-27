@@ -20,5 +20,8 @@
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
+        {{- if .Params.epilepsywarning -}}
+        {{- partial "epilepsy-warning.html" . -}}
+        {{- end -}}
     </div>
 {{- end -}}
