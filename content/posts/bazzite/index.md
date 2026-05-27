@@ -54,7 +54,7 @@ comments = true
 |---|---|
 | **Motherboard** | `MS-7C95 (1.0)` |
 | **CPU** | `AMD Custom 0405` — `8 Threads @ 3.50 GHz` |
-| **GPU** | `AMD Custom GPU 0405`` *(Discrete GPU)* |
+| **GPU** | `AMD Custom GPU 0405` *(Discrete GPU)* |
 | **Memory** | `16 GiB DDR4 RAM` |
 ---
 ## 💾 Storage
