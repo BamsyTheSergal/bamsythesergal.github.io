@@ -97,12 +97,8 @@
 
         {{- /* Comment */ -}}
         {{- partial "comment.html" . -}}
-        {{- if eq .Params.epilepsywarning true -}}
-  <div style="position:fixed;top:0;left:0;background:red;color:white;z-index:999999;padding:20px;">
-    WARNING ENABLED
-  </div>
-
-  {{- partial "epilepsy-warning.html" . -}}
-{{- end -}}
+        {{- if .Params.epilepsywarning -}}
+          {{- partial "epilepsy-warning.html" . -}}
+        {{- end -}}
     </article>
 {{- end -}}
