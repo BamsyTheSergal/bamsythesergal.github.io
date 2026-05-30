@@ -9,4 +9,4 @@ epilepsywarning = true
 
 ### This is a basic page for testing a epilepsy warning!
 
- hellow
+{{< x user=GoHugoIO id=2025841039144353838 >}}
